@@ -27,6 +27,7 @@ public class CreateProduct {
 
 	public static void main(String[] args) throws Throwable {
 	
+		//welcome hello
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
